@@ -1,0 +1,42 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+  position: relative;
+  padding-top: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Back Arrow Styling */
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  z-index: 1000;
+}
+
+.back-arrow:hover {
+  transform: scale(1.1);
+}
+
+/* YouTube iframe Styling */
+.player iframe {
+  width: 90%;
+  height: 60vh;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Info Text Styling */
+.player-info {
+  margin-top: 20px;
+  color: #ddd;
+  font-size: 16px;
+}
