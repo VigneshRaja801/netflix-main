@@ -10,28 +10,28 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-icons">
         <a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/vignesh.shane.12 "
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={facebook_icon} alt="Facebook" />
         </a>
         <a
-          href="https://www.instagram.com/karthi12__29/"
+          href="https://www.instagram.com/vignexz_raza/ "
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={instagram_icon} alt="Instagram" />
         </a>
         <a
-          href="https://twitter.com"
+          href="https://x.com/VigneshRaj47655"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={twitter_icon} alt="Twitter" />
         </a>
         <a
-          href="https://www.youtube.com/@karthiedits941"
+          href="https://www.youtube.com/@vigneshraja801"
           target="_blank"
           rel="noopener noreferrer"
         >
